@@ -2,14 +2,14 @@
 	padding: 0;
 	margin: 0;
 	font-family: '나눔고딕','NanumGothicWeb','Nanum Gothic','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;
-	font-size: 16px;
-	font-weight: 700;
+	font-size: 13px;
+	font-weight: 1500;
 }
 
 header {
 	height: 90px;
 	text-align: center;
-	background-color: yellow;
+	background-color: gray;
 }
 
 a {
