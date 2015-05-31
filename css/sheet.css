@@ -18,6 +18,11 @@ header a {
 	line-height: 90px;
 }
 
+.odd li:nth-child(2n) { background-color: #76EAEE; }
+/*.odd li:nth-child(2n+1) { background-color: #76EE9A; }*/
+.even li:nth-child(2n) { background-color: #76EE9A; }
+/*.even li:nth-child(2n+1) { background-color: #76EAEE; }*/
+
 nav {
 	height: 30px;
 }
