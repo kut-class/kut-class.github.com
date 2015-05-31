@@ -15,6 +15,15 @@
     <script src="3rd/jquery.js"></script>
     <script src="script.js"></script>
     <script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
+    <script language="javascript"> 
+ 
+function list_link(form)
+{
+var URL = document.form.listmenu.options[document.form.listmenu.selectedIndex].value;
+window.location.href = URL;
+}
+ 
+</script>
   </head>
   <body>
     <div class="head"><a href="https://kut-class.github.io" data-quicktap class="l"><img src="img/a.png" alt=""><img src="img/logo-alt.png" alt="" class="alt"><small>by 컴퓨터시스템기초설계 3분반 6조</small></a>
@@ -74,6 +83,14 @@
     var pw = prompt("비번");
     if(pw == 2448){
       document.write("관리자")
+      <form name="form">
+	<select name="listmenu">
+		<option value=""> ==선택==
+		<option value="http://www.naver.com">네이버
+		<option value="http://www.daum.net">다음
+	</select>
+<input type=button value=" G O " onClick="javascript:list_link(this)">
+</form>
     }
     else{
       document.write("손님")
