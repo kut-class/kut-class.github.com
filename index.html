@@ -14,15 +14,29 @@
     <!-- js: -->
     <script src="3rd/jquery.js"></script>
     <script src="script.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
   </head>
   <body>
     <SCRIPT LAGUAGE="JAVASCRIPT">
     var pw = prompt("비번");
     if(pw == 2448){
       document.write("관리자")
-      <DIV id="In_31" style="DISPLAY: block"><SPAN style="FONT-SIZE: 9pt; CURSOR: hand; COLOR: #0482d6" onclick="In_31.style.display='none';Out_31.style.display='block'"><U><img src ="https://d30y9cdsu7xlg0.cloudfront.net/png/66362-200.png" width="60" height="60"></U></SPAN></DIV>
-            <DIV id="Out_31" style="DISPLAY: none"><SPAN style="FONT-SIZE: 9pt; CURSOR: hand; COLOR: #0482d6" onclick="In_31.style.display='block';Out_31.style.display='none'"><U><img src ="https://d30y9cdsu7xlg0.cloudfront.net/png/66362-200.png"></U></SPAN> 
-            <P><SPAN style="FONT-SIZE: 9pt"> 
+      $(function () {
+$('#contents tr').hide(); -- class가 contents인  tr을 모두 감춘다.  펼쳐질 내용을 감춰두기위한 작업
+$('#contents').find('.title').parent().show(); 
+-- class가 title인 td가 속한 tr을  보이기위한 작업(parent는 상위를 의미한다.) 
+$('#contents .title').parent().click(function(){ -- class가 title인 td가 속한 tr을 클릭하면 함수 실행
+$('#contents tr').hide(); 
+$('#contents').find('.title').parent().show();
+$('#contents').find('.title').css('background-color', '#fff'); -- class가 title인 td가 속한 tr에 배경색을 흰색으로 지정
+var tr = $('#contents tr'); 
+var rindex = $(this).parent().children().index(this); -- 클릭한 tr의 인덱스를 찾아 변수에 저장
+$(this).children().css('background-color', '#f7f7f7'); -- 클릭한 tr(제목)에만 배경색을 회색으로 지정
+for(var i = rindex; i < rindex + 2; i++){ --  클릭한 tr의 다음(1이면 2) tr 인덱스를 찾기위한 작업
+$(tr[i]).show(); -- 찾아낸 인덱스 tr을 보이기위한 작업
+}
+});
+});
     }
     else{
       document.write("손님")
