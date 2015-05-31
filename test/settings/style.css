@@ -1,0 +1,131 @@
+.block_settings_wrapper {
+	width:222px;
+	padding:8px 0px 33px;
+	position:absolute;
+	left:0px;
+	top:275px;
+	
+	background-color:#ffffff;
+	
+	-webkit-box-shadow:0px 0px 3px rgba(0, 0, 0, 0.14);
+	-moz-box-shadow:0px 0px 3px rgba(0, 0, 0, 0.14);
+	box-shadow:0px 0px 3px rgba(0, 0, 0, 0.14);
+	
+	-webkit-transition:left .4s;
+	-moz-transition:left .4s;
+	-ms-transition:left .4s;
+	transition:left .4s;
+	
+	z-index:70;
+}
+
+.block_settings_wrapper section {padding:23px 17px 0px;}
+.block_settings_wrapper section p {padding-bottom:13px; font-family:'Patua One', Helvetica, Arial, sans-serif; font-size:13px; color:#2d2d2d; text-transform:uppercase;}
+
+.block_settings_wrapper .block_settings_previews {margin-left:-4px; margin-bottom:-4px; overflow:hidden;}
+.block_settings_wrapper .block_settings_previews li {margin-left:4px; margin-bottom:4px; float:left; display:block;}
+.block_settings_wrapper .block_settings_previews li a {
+	width:28px;
+	height:28px;
+	display:block;
+	position:relative;
+	
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	
+	text-indent:-9000px;
+}
+.block_settings_wrapper .block_settings_previews li a:before {
+	display:none;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	
+	background:url(images/settings_check.png) no-repeat 8px 9px;
+	
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	
+	content:' ';
+}
+.block_settings_wrapper .block_settings_previews li a.current:before {display:block;}
+
+.block_settings_wrapper .block_settings_previews.type_buttons li a {width:auto; height:21px; line-height:21px; padding:0px 11px; border:2px solid #dbe6e6; font-family:'Montserrat', Helvetica, Arial, sans-serif; font-size:10px; color:#afbaba; text-transform:uppercase; text-indent:0px;}
+.block_settings_wrapper .block_settings_previews.type_buttons li a:hover {text-decoration:none;}
+.block_settings_wrapper .block_settings_previews.type_buttons li a.current {border-color:#656565; color:#656565;}
+.block_settings_wrapper .block_settings_previews.type_buttons li a.current:before {display:none;}
+
+.block_settings_wrapper .block_settings_previews.type_bg li a:before {background-color:rgba(25, 25, 25, 0.66);}
+
+.block_settings_wrapper .block_settings_previews li a.color_lightcyan {background-color:#33cccd;}
+.block_settings_wrapper .block_settings_previews li a.color_red {background-color:#ff3500;}
+.block_settings_wrapper .block_settings_previews li a.color_blue {background-color:#53b7f9;}
+.block_settings_wrapper .block_settings_previews li a.color_orenge {background-color:#ff6800;}
+.block_settings_wrapper .block_settings_previews li a.color_navy {background-color:#1c7bbf;}
+.block_settings_wrapper .block_settings_previews li a.color_peach {background-color:#e35039;}
+.block_settings_wrapper .block_settings_previews li a.color_yellow {background-color:#ffbe34;}
+.block_settings_wrapper .block_settings_previews li a.color_cyan {background-color:#257cd7;}
+.block_settings_wrapper .block_settings_previews li a.color_pink {background-color:#e52b50;}
+.block_settings_wrapper .block_settings_previews li a.color_purple {background-color:#eab4d0;}
+.block_settings_wrapper .block_settings_previews li a.color_green {background-color:#35bb2e;}
+.block_settings_wrapper .block_settings_previews li a.color_magenta {background-color:#f20707;}
+
+.block_settings_wrapper .block_settings_previews li a.bg_1 {background-image:url(images/bg_pattern_1.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_2 {background-image:url(images/bg_pattern_2.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_3 {background-image:url(images/bg_pattern_3.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_4 {background-image:url(images/bg_pattern_4.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_5 {background-image:url(images/bg_pattern_5.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_6 {background-image:url(images/bg_pattern_6.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_7 {background-image:url(images/bg_pattern_7.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_8 {background-image:url(images/bg_pattern_8.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_9 {background-image:url(images/bg_pattern_9.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_10 {background-image:url(images/bg_pattern_10.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_11 {background-image:url(images/bg_pattern_11.png);}
+.block_settings_wrapper .block_settings_previews li a.bg_12 {background-image:url(images/bg_pattern_12.png);}
+
+.block_settings_wrapper #settings_close {width:41px; height:41px; display:block; position:absolute; right:-41px; top:0px; background:url(images/icon_settings.png) no-repeat #191919; text-indent:-9000px;}
+
+.closed_settings .block_settings_wrapper {left:-222px;}
+
+#logo_top a img {display:none;}
+#logo_top a img:first-child {display:block;}
+
+.theme_red #logo_top a img {display:none;}
+.theme_red #logo_top a img.logo_red {display:block;}
+
+.theme_blue #logo_top a img {display:none;}
+.theme_blue #logo_top a img.logo_blue {display:block;}
+
+.theme_orange #logo_top a img {display:none;}
+.theme_orange #logo_top a img.logo_orange {display:block;}
+
+.theme_navy #logo_top a img {display:none;}
+.theme_navy #logo_top a img.logo_navy {display:block;}
+
+.theme_peach #logo_top a img {display:none;}
+.theme_peach #logo_top a img.logo_peach {display:block;}
+
+.theme_yellow #logo_top a img {display:none;}
+.theme_yellow #logo_top a img.logo_yellow {display:block;}
+
+.theme_cyan #logo_top a img {display:none;}
+.theme_cyan #logo_top a img.logo_cyan {display:block;}
+
+.theme_pink #logo_top a img {display:none;}
+.theme_pink #logo_top a img.logo_pink {display:block;}
+
+.theme_purple #logo_top a img {display:none;}
+.theme_purple #logo_top a img.logo_purple {display:block;}
+
+.theme_green #logo_top a img {display:none;}
+.theme_green #logo_top a img.logo_green {display:block;}
+
+.theme_magenta #logo_top a img {display:none;}
+.theme_magenta #logo_top a img.logo_magenta {display:block;}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HMFaysal - Launching Soon</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- css: -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700">
+    <link rel="stylesheet" href="3rd/iconfont/css/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="3rd/socialfont/css/socicon.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- js: -->
+    <script src="3rd/jquery.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="head"><a href="index-2.html" data-quicktap class="l"><img src="img/logo.png" alt=""><img src="img/logo-alt.png" alt="" class="alt"><small>by hmfaysal</small></a>
+      <!-- /a.l (left top menu)-->
+      <div class="r">
+        <input id="explore" type="checkbox" name="explore">
+        <label for="explore" data-quicktap><small>Explore</small></label>
+        <nav>
+          <ul class="menu">
+
+            <li class="social"><a href="#twitter">a</a></li>
+            <li class="social"><a href="#facebook">b</a></li>
+            <li class="social"><a href="#instagram">x</a></li>
+            <li class="social"><a href="#linkedin">j</a></li>
+          </ul>
+          <!-- /menu-->
+        </nav>
+        <!-- /nav (site navigation holder)-->
+      </div>
+      <!-- /r (right top menu)-->
+    </div>
+    <!-- /head-->
+    <div class="main">
+      <section style="background-image:url('img/img7.jpg')" class="screen mod-dark">
+        <div style="background:rgba(139,160,203,.66)" class="mod-fill"></div>
+        <canvas id="canvas" class="mod-fill"></canvas>
+        <!-- /#canvas-->
+        <div class="screen-mid">
+          <article class="plot">
+            <p class="dwarf caps">Hardly Working</p>
+            <h2><em class="mod-frame">Winter is coming</em></h2>
+          </article>
+          <!-- /plot-->
+        </div>
+      </section>
+      <!-- /section.screen (mods: dark)-->
+      <section class="link mod-dusk mod-thin"><a href="http://twitter.com/hmfaysal" target="_blank">
+          <p class="dwarf caps">Now on Twitter</p>
+          <p data-tweet-from="hmfaysal">Read our news on twitter</p></a></section>
+      <!-- /section.link--><br>
+      <section id="welcome" class="stack">
+        <article class="plot mod-mid">
+          <h2 class="caps"><strong>Getting ready to impress</strong></h2>
+          <hr>
+          <h3>I am currently working on an HTML5 template, which will be<br><em>Blazingly fast &amp; Reliable</em>.</h3>
+          <p>Welcome the pre-release demo of the template that will organize my photos on the web and present them on all variety of desktop / mobile devices.</p>
+          <p>Navigation will relatively adapts on all screens, organizing my selected works. I will be ready for conversation shortly.</p>
+        </article>
+        <!-- /plot (mods: mid)-->
+        <section style="background-image:url('img/var/mockup.jpg'); background-position:right" class="mod-contain"></section>
+        <!-- /section (mods: contain)-->
+      </section>
+      <!-- /section.stack-->
+      <section class="plot mod-nt">
+        <hr>
+        <h2>
+          <q>A good decision is based on knowledge and not on numbers.</q>
+        </h2>
+        <p class="dwarf caps mod-ghost">&ndash; Plato</p>
+        <hr>
+      </section>
+      <!-- /section.plot (mods: no top)-->
+      <section class="plot mod-nv">
+        <p>Please <a href="http://alaja.info/contact" data-fx target="_blank">let us know</a> if we forgot to add something here!.</p><br>
+        <p class="dwarf caps">15 by hmfaysal &copy; 2015</p>
+        <ul class="share">
+          <li class="social"><a href="#twitter">a</a></li>
+          <li class="social"><a href="#facebook">b</a></li>
+          <li class="social"><a href="#gplus">c</a></li>
+          <li class="social"><a href="#instagram">x</a></li>
+        </ul>
+        <hr>
+      </section>
+      <!-- /section.plot (mods: no vertical spacing)-->
+      <section>
+        <p><a href="#top" class="btn caps mod-bg mod-size-s">To the Top<i class="if-angle-up-circle"></i></a></p>
+      </section>
+      <!-- /section-->
+      <!--<section class="link"><a href="mediagrid.html" style="background-image:url('img/group.jpg')" class="mod-dark mod-accent">
+          <p class="dwarf caps">Next: Mediagrid<sup>&trade;</sup> Photo Page Example</p>
+          <h3 class="caps">Your images with presentation they Deserve</h3></a></section>-->
+      <!-- /section.link-->
+    </div>
+    <!-- /main-->
+    <script>
+      ; // #canvas animation logic (snow)
+      ; (function(){function e(){s=window.innerWidth;o=window.innerHeight;u=document.getElementById("canvas");u.width=s;u.height=o;a=u.getContext("2d");f=[];for(var e=0;e<s*.33;e++){var t=new i;f.push(t)}r()}function t(){window.addEventListener("resize",n)}function n(){s=window.innerWidth;o=window.innerHeight;u.width=s;u.height=o}function r(){a.clearRect(0,0,s,o);for(var e in f)f[e].draw();requestAnimationFrame(r)}function i(){function e(){t.pos.x=Math.random()*s;t.pos.y=Math.random()*o;t.alpha=.3+Math.random()*.3;t.scale=.1+Math.random()*.3;t.velocity=.2+Math.random()*2;t.velocityX=Math.random()-.5}var t=this;(function(){t.pos={};e()})();this.draw=function(){if(t.alpha<=0||t.scale<=.1){e()}t.pos.y+=t.velocity;t.pos.x+=t.velocityX;t.alpha-=.001;t.scale=t.scale*.97;a.beginPath();a.arc(t.pos.x,t.pos.y,t.scale*10,0,2*Math.PI,false);a.fillStyle="rgba(235,245,255,"+t.alpha+")";a.fill()}}var s,o,u,a,f;e();t()})();
+      
+      ; // requestAnimationFrame by Erik Möller, Paul Irish, Tino Zijdel; MIT
+      ; (function(){for(var e=0,b=["ms","moz","webkit","o"],a=0;a<b.length&&!window.requestAnimationFrame;++a)window.requestAnimationFrame=window[b[a]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[b[a]+"CancelAnimationFrame"]||window[b[a]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(a,b){var c=(new Date).getTime(),d=Math.max(0,16-(c-e)),f=window.setTimeout(function(){a(c+d)},d);e=c+d;return f});window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)})})();
+      
+    </script>
+    <!-- /script-->
+  </body>
+</html>
