@@ -15,31 +15,7 @@
     <script src="3rd/jquery.js"></script>
     <script src="script.js"></script>
      <SCRIPT TYPE="TEXT/JAVASCRIPT">
-  //<![CDATA[
-   var search = function(){
-    var frm = document.frm;
-    if(!frm.scList.value){
-     alert("검색 사이트를 선택해주세요");
-     return;
-    }else if(!frm.A1.value){
-     alert("검색어를 입력해주세요");
-     return;
-    }
-   
-     var url = "";
-    switch (frm.scList.value){
-     case "1": url = "http://search.naver.com/search.naver?query=";
-     break;
-     case "2": url = "http://www.google.com/search?query=";
-     break;
-     case "3": url = "http://search.nate.com/search/all.html?z=A&s=&tq=&q=";
-     break;
-    }
-    alert(url)
-    document.getElementsByName("iff").item(0).setAttribute("src", url+frm.A1.value);
-   }
-  //]]>
-  </SCRIPT>
+  
   </head>
   <body>
     <div class="head"><a href="https://kut-class.github.io" data-quicktap class="l"><img src="img/a.png" alt=""><img src="img/logo-alt.png" alt="" class="alt"><small>by 컴퓨터시스템기초설계 3분반 6조</small></a>
@@ -131,6 +107,50 @@
   
       <section class="plot mod-nt">
         <hr>
+        <tr>
+   <td><input type="hidden" id="AAA" name="AAA" value="바나나"></td>
+</tr>
+<tr>
+  <td><span id="td1">위 input의 AAA의 value값 출력</span></td>
+</tr>
+ 
+ 
+ 
+<tr>
+   <td><input type="text" id="BBB" name="AAA" value="" onkeyup="document.getElementById('td2').innerHTML=this.value;"></td>
+</tr>
+<tr>
+  <td><span  id="td2">위 input의 AAA의 입력 value값 출력</span></td>
+</tr>
+<script>
+ window.onload=function(){
+ alert(document.getElementById('td1').innerHTML);
+  document.getElementById('td1').innerHTML=document.getElementById('AAA').value;
+ }
+</script>
+
+<tr>
+   <td><input type="hidden" id="AAA" name="AAA" value="바나나"></td>
+</tr>
+<tr>
+  <td><span id="td1">위 input의 AAA의 value값 출력</span></td>
+</tr>
+ 
+ 
+ 
+<tr>
+   <td><input type="text" id="BBB" name="AAA" value="" onkeyup="document.getElementById('td2').innerHTML=this.value;"></td>
+</tr>
+<tr>
+  <td><span  id="td2">위 input의 AAA의 입력 value값 출력</span></td>
+</tr>
+<script>
+ window.onload=function(){
+ alert(document.getElementById('td1').innerHTML);
+  document.getElementById('td1').innerHTML=document.getElementById('AAA').value;
+ }
+</script>
+
         <div id="first">1학년<br><br><br>
          <DIV id="In_2" style="DISPLAY: block"><SPAN style="FONT-SIZE: 9pt; CURSOR: hand; COLOR: #0482d6" onclick="In_2.style.display='none';Out_2.style.display='block'"><U><img src ="https://d30y9cdsu7xlg0.cloudfront.net/png/81529-200.png" alt="" width="50" height="50"></U></SPAN></DIV>
             1등<DIV id="Out_2" style="DISPLAY: none"><SPAN style="FONT-SIZE: 9pt; CURSOR: hand; COLOR: #0482d6" onclick="In_2.style.display='block';Out_2.style.display='none'"><U><img src ="https://d30y9cdsu7xlg0.cloudfront.net/png/81529-200.png" alt="" width="60" height="60"></U></SPAN> 
