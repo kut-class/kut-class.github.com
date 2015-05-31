@@ -30,10 +30,7 @@ ul {
 	margin: auto;
 }
 
-.odd li:nth-child(2n) { background-color: #76EAEE; }
-.odd li:nth-child(2n+1) { background-color: #76EE9A; }
-.even li:nth-child(2n) { background-color: #76EE9A; }
-.even li:nth-child(2n+1) { background-color: #76EAEE; }
+
 
 li {
 	list-style: none;
