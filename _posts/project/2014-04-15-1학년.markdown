@@ -1,0 +1,39 @@
+---
+layout: project
+title:  "1학년"
+date:   2014-04-25 16:54:46
+author: Marcel Newman
+categories:
+- project
+img: portfolio_10.jpg
+thumb: thumb02.jpg
+---
+<body>
+<DIV id="In_1" style="DISPLAY: block"><SPAN style="FONT-SIZE: 14pt; CURSOR: hand; COLOR: #0482d6" onclick="In_1.style.display='none';Out_1.style.display='block'"><U>&gt;컴퓨터시스템기초설계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3분반&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강승우&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★☆</U></SPAN></DIV>
+<DIV id="Out_1" style="DISPLAY: none"><SPAN style="FONT-SIZE: 14pt; CURSOR: hand; COLOR: #0482d6" onclick="In_1.style.display='block';Out_1.style.display='none'"><U>&gt;컴퓨터시스템기초설계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3분반&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강승우&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★☆</U></SPAN> 
+<P><SPAN style="FONT-SIZE: 9pt"><div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'hy1392';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript><script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'hy1392';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script></SPAN></P></DIV>
+
+</body>
