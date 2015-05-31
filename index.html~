@@ -68,7 +68,7 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 요약글 내용</SPAN>
 
-{% include portfolio.html title="강의 정보" limit=10 %}
+
 
 </P></DIV></body>
 
