@@ -1,9 +1,9 @@
 
 
-.odd li:nth-child(2n) { background-color: #76EA88; }
-.odd li:nth-child(2n+1) { background-color: #76EE9B; }
-.even li:nth-child(2n) { background-color: #76EE9B; }
-.even li:nth-child(2n+1) { background-color: #76EA88; }
+.odd li:nth-child(2n) { background-color: black; }
+.odd li:nth-child(2n+1) { background-color: gray; }
+.even li:nth-child(2n) { background-color: black; }
+.even li:nth-child(2n+1) { background-color: gray; }
 
 nav {
 	height: 300px;
