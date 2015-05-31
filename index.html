@@ -83,7 +83,12 @@ window.location.href = URL;
     var pw = prompt("비번");
     if(pw == 2448){
       document.write("관리자")
-      <form name="form">
+    }
+    else{
+      document.write("손님")
+    }
+    </SCRIPT>
+    <form name="form">
 	<select name="listmenu">
 		<option value=""> ==선택==
 		<option value="http://www.naver.com">네이버
@@ -91,11 +96,6 @@ window.location.href = URL;
 	</select>
 <input type=button value=" G O " onClick="javascript:list_link(this)">
 </form>
-    }
-    else{
-      document.write("손님")
-    }
-    </SCRIPT>
           </article>
           <!-- /plot-->
         </div>
