@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>How's the Class?</title>
     <link rel="shortcut icon" href="/img/mark.ico">
@@ -12,9 +12,15 @@
     <link rel="stylesheet" href="3rd/socialfont/css/socicon.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/sheet.css" />
+    <link href="../css/project.css" rel="stylesheet" type="text/css" />
+    <link href="../css/compat.css" rel="stylesheet" type="text/css" />
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <link href="../css/mypage.css" rel="stylesheet" type="text/css" />
+    <link href="../css/beaver_main.css" rel="stylesheet" type="text/css" />
     <!-- js: -->
     <script src="3rd/jquery.js"></script>
     <script src="script.js"></script>
+    <script type="text/javascript" src="../js/setpng.js"></script>
   </head>
   <body>
     <div class="head"><a href="https://kut-class.github.io" data-quicktap class="l"><img src="img/a.png" alt=""><img src="img/logo-alt.png" alt="" class="alt"><small>by 컴퓨터시스템기초설계 3분반 6조</small></a>
@@ -97,7 +103,173 @@
             <DIV id="Out_3" style="DISPLAY: none"><SPAN style="FONT-SIZE: 9pt; CURSOR: hand; COLOR: #0482d6" onclick="In_3.style.display='block';Out_3.style.display='none'"><U><img src ="https://d30y9cdsu7xlg0.cloudfront.net/png/12715-200.png"></U></SPAN> 
             <p><SPAN style="FONT-SIZE: 9pt">
 요약글 내용
-
+<div id="wrap">
+<div id="main_wrap">
+    <!-- div class="project_con_issue" -->
+    <h2 class="title_style05">주간 베스트</h2>
+        <div id="content_project_sub">
+        	<!--left menu--> 
+            <div id="sub_menu" class="project_menu_sub">
+                <ul>
+                    <li><a href="download.html">최다 다운로드</a></li>
+                    <li class="on"><a href="week_best.html" >주간 베스트</a></li>
+                    <li><a href="new_project.html" >새 프로젝트</a></li>
+                </ul>
+            </div>
+            <!--//left menu-->
+         	<!-- contents -->
+            <div id="project_content">
+            	  <!-- best -->
+                  <div id="rank_best">
+                    <h3 class="rankbest_img"><img src="../2010_images/rank_best.png" class="png24" width="79" height="79" alt="best" /></h3>
+                    <div>
+                        <h3 class="rankbest_title">프로젝트 이름</h3>
+                        <ul class="rankbest_project_link">
+                            <li><a href="#">프로젝트 홈</a></li>
+                            <li class="last"><a href="#">다운로드</a></li>
+                        </ul>
+                        <span style="clear:both"></span>
+					</div>
+                    <div class="rank_ratio">활동지수 :100%</div>
+                    <ul class="rankbest_ratio_standard">
+                        <li class="date">최근 릴리즈 날짜 : 2010년 8월 30일</li>
+                        <li class="downnum">다운로드 수 : 200,000</li>
+                        <li class="boardtxtnum">게시판 글 : 1,000</li>                      
+                    </ul>
+                    <div class="rankbest_project_info">
+                        <span class="thumb"><img src="../2010_images/rank_project_img.gif" width="127" height="84" alt="project image" /></span>
+                        <span>프로젝트 소개글입니다. 프로젝트 소개글입니다. 프로젝트 소개글입니다. 프로젝트 소개글입니다.프로젝트 소개글입니다.프로젝트 소개글입니다.프로젝트 소개글입니다.프로젝트 소개글입니다. 프로젝트 소개글입니다. 프로젝트 소개글입니다.</span>
+                    </div>            
+                </div>
+                <!-- 프로젝트 리스트 -->
+                <div id="rank_best_list">
+                <table border="1" cellspacing="0" summary="주간 프로젝트 순위입니다.">
+                  <caption>
+                    주간 베스트 프로젝트
+                  </caption>
+                  <thead>
+                  <tr>
+                    <th scope="col" class="num">순위</th>
+                    <th scope="col">프로젝트</th>
+                    <th scope="col" class="standard">활동지수</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td class="first num">2</td>
+                    <td class="first">
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="first standard">100%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">3</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">99%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">4</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">80%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">5</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">80%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">6</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">80%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">7</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">80%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">8</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">80%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">9</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">20%</td>
+                  </tr>
+                  <tr>
+                    <td class="num">10</td>
+                    <td>
+                    	<ul>
+                        	<li class="project_name">프로젝트 이름</li>
+                            <li>프로젝트 소개입니다. 프로젝트 소개입니다. 프로젝트 소개입니다. </li>
+                        </ul>
+                    </td>
+                    <td class="standard">1%</td>
+                  </tr>
+                  </tbody>
+              </table>
+              <div class="total_project">총 1000개 프로젝트</div>
+              	<!--paginate--> 
+				<div class="paginate02"> 
+					<strong>1</strong> 
+					<a href="#">2</a> 
+					<a href="#">3</a> 
+					<a href="#">4</a> 
+					<a href="#">5</a> 
+					<a href="#">6</a> 
+					<a href="#">7</a> 
+					<a href="#">8</a> 
+					<a href="#">9</a> 
+					<a href="#">10</a> 
+					<a href="#" class="next"><span><img src="/themes/naver/images/btn_next.jpg" width="24" height="7" alt="다음" /></span></a> 
+					<a href="#" class="end"><span><img src="/themes/naver/images/btn_nex_next.jpg" width="24" height="7" alt="종료" /></span></a> 
+                </div>		
+                <!--paginate--> 
+              </div>
+              <!-- //프로젝트 리스트 -->
+            </div>            
+        </div>
+</div>
+</div>
 
 </p></SPAN></DIV>
 </p>
