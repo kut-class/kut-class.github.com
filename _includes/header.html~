@@ -1,0 +1,15 @@
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>컴퓨터 시스템 기초설계 6조의 블로그</h3>
+                <h1>How's the class?</h1>
+                <h5>이제 더이상 수많은 강의 목록 앞에서 고민할 필요가 없습니다.</h5>
+                <h5>누르세요 그리고 고르세요!</h5>				
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 himg">
+                <img src="{{ "/assets/img/browser.png" | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->
